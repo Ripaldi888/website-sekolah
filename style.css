@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 body {
     margin: 0;
@@ -102,6 +102,7 @@ nav ul li a{
     position: static;
     transform: translateY(-90px);
     height: 35rem;
+    filter: brightness(30%);
 }
 
 .background h1 {

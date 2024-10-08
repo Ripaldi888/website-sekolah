@@ -6,7 +6,6 @@ boxes.forEach((box, index) => {
         
         hiddenElement.classList.toggle('visible');
         
-      
         const allHiddenElements = document.querySelectorAll('.detail-jurusan');
         allHiddenElements.forEach((el, i) => {
             if (i !== index) {
