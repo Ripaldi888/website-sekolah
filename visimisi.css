@@ -1,0 +1,150 @@
+* {
+    border: 1px solid red;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* header */
+.header{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    border-style: none none solid none;
+}
+.kiri{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:5rem;
+}
+.kiri .tulisan{
+    margin: 20px 20px 0px 20px;
+}
+.kiri .tulisan h1{
+    font-weight: 600;
+    font-size: 30px;
+}
+.kiri .tulisan p{
+    font-weight: 600;
+    font-size: 10px;
+}
+.kiri img{
+    width: 6rem;
+}
+.kanan img{
+    width: 10rem;
+}
+.kanan{
+    margin: 0 0 0 33rem;
+}
+
+nav {
+    background-color: #12372A;
+    border-radius: 0 0 20px 20px;
+    padding: 10px 0 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin: 0 100px 0 100px;
+    /* border-top: 10px solid linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+}
+nav .warna{
+    max-width: 100%;
+    margin-top: -15px;
+    height: 10px;
+    background: linear-gradient(
+        90deg,
+        hsl(309deg 40% 30%) 0%,
+        hsl(348deg 49% 49%) 6%,
+        hsl(23deg 78% 55%) 13%,
+        hsl(55deg 100% 42%) 24%,
+        hsl(51deg 100% 42%) 38%,
+        hsl(35deg 100% 44%) 55%,
+        hsl(18deg 100% 43%) 67%,
+        hsl(20deg 100% 39%) 76%,
+        hsl(46deg 100% 30%) 83%,
+        hsl(81deg 100% 29%) 88%,
+        hsl(121deg 52% 42%) 92%,
+        hsl(75deg 96% 33%) 95%,
+        hsl(54deg 100% 35%) 98%,
+        hsl(40deg 97% 46%) 100%
+    ) ;
+}
+
+
+nav ul {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    margin-top: 17px;
+}
+nav ul li{
+    margin: 0 25px 0 25px;
+    list-style: none;
+}
+
+
+nav ul li a{
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    position: relative;
+    width: 30rem;
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sambutan {
+    background-image: url(img/cn1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    filter: opacity(40%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+
+.text {
+    position: relative;
+    background-color: #12372A;
+    color: #FBFADA;
+    width: 25rem;
+    height: 7rem;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: opacity(50%);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+.visiMisi {
+    background-color: #12372A;
+    margin: 0 2rem 0 2rem;
+}
+
+.image-cn{
+    width: 16rem;
+    height: auto;
+}
