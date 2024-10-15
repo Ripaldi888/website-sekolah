@@ -216,7 +216,12 @@ nav ul li a{
     height: 5px;
     margin-top: -0.5rem;
 }
-
+.underlinee1{
+    background-color: #ffffff;
+    width: 6rem;
+    height: 5px;
+    margin-top: -0.5rem;
+}
 
 .jurusan p{
     margin-top: 1rem;
@@ -400,4 +405,181 @@ footer h1 {
     width: 150px;
 
     transform: translateY(-35px);
+}
+
+/* Prestasi */
+.prestasi{
+    background-image: url(img/backgroundprestasi.jpg);
+    width: 100%;
+    /* padding: 1rem 0 1rem 0; */
+}
+.prestasi .title-prestasi{
+    color: white;
+    font-size: 45px;
+    font-family: 'Lato' sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.prestasi .content-presentasi .ilustrasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prestasi .content-prestasi .ilustrasi img{
+    width: 33rem;
+    height: 33rem;
+}
+.prestasi .content-prestasi .slick-prestasi .img-prestasi img{
+    width: 24rem;
+}
+.slick-prestasi .img-prestasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.contact{
+    margin-top: 5rem;
+    background-color: #12372A;
+    border-radius: 20px;
+    height: 50rem;
+}
+
+.contact h1{
+    color: #ffff;
+    font-family: "Roboto", sans-serif;
+    padding-top: 8rem;
+    font-size: 3rem;
+}
+
+
+
+.kontak .alamat  {
+    color: #fff;
+    text-align: center;
+}
+
+
+.kontak .sekolah-kontak {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.map-container  {
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #D9D9D9;
+    padding: 3rem 2rem;
+    margin-top: 30px;
+}
+
+footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Mengubah height menjadi auto agar responsif */
+}
+
+footer img {
+    width: 3.5rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+footer h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;   
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+footer .apaja p {
+    margin-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+footer .center {
+    flex: 1;
+    margin: 1rem 0;
+    text-align: left;
+}
+footer .contact-info ul li {
+    list-style: none;
+}
+
+footer .center li {
+    color: #12372A;
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+
+footer .right {
+    flex: 1;
+    text-align: right;
+    margin: 1rem 0;
+    list-style: none;
+}
+
+footer .right a {
+    text-decoration: none;
+    color: black;
+    margin: 0.5rem;
+    display: inline-block;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+    footer .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .right {
+        text-align: center;
+    }
+}
+
+
+.footer-bawah .akhir h1{
+    font-size: 25px;
+    border-top: 10px solid #12372A;
+    text-align: center;
+    padding-top: 20px;
+    color: #12372A;
 }

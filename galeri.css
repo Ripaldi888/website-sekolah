@@ -155,8 +155,11 @@ img{
     height: 50rem;
     overflow-y: scroll;
     border-radius: 30px;
-
 }
+.wkwk{
+    margin: 3rem 0 3rem;
+}
+
 
 .kotak-pembungkus img{
     border-radius: 30px;
